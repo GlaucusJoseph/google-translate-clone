@@ -9,7 +9,7 @@ export interface State {
   toLanguage: Language;
   fromText: string;
   result: string;
-  loading: Boolean;
+  loading: boolean;
 }
 
 export type Action =

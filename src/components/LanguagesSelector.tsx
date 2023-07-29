@@ -2,10 +2,6 @@ import { Form } from "react-bootstrap";
 import { AUTO_LANGUAGE, SUPPORTED_LANGUAGES } from "../constant";
 import { type FromLanguage, type Language, SectionType } from "../types.d";
 
-/* interface Props {
-  onChange: (language: Language) => void;
-} */
-
 type Props =
   | {
       type: SectionType.From;
@@ -17,9 +13,6 @@ type Props =
       value: Language;
       onChange: (language: Language) => void;
     };
-
-// Another good way to do the same would be:
-// export const LanguageSelector = ({ onChange }: Props) => {
 
 export const LanguageSelector: React.FC<Props> = ({
   onChange,

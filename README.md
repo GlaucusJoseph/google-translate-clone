@@ -1,3 +1,9 @@
+###
+
+This version of the repository was made before using the ChatGPT API.
+
+The rest of the project won't be published.
+
 # React + TypeScript + Vite
 
 This app is a Google Translate clone.
